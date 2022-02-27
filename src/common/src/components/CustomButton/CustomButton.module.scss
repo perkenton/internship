@@ -1,0 +1,74 @@
+.button {
+  width: 100%;
+  min-height: 48px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--system-white);
+
+  border: none;
+  border-radius: 8px;
+  transition: .3s linear;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.loader {
+  font-size: 24px;
+  position: absolute;
+  z-index: 1;
+}
+
+.green {
+  background: linear-gradient(90deg, #0EC261 2.61%, #039F67 112.6%);
+
+  &:hover, &:focus {
+    background: linear-gradient(90deg, #0B934A 2.61%, #026E47 112.6%);
+  }
+  &:active {
+    background: linear-gradient(90deg, #076432 2.61%, #013C27 112.6%);
+  }
+}
+.blue {
+  background: linear-gradient(90deg, #132949 0%, #0C7B67 100%);
+
+  &:hover, &:focus {
+    background: linear-gradient(90deg, #10213B 0%, #096354 100%);
+  }
+  &:active {
+    background: linear-gradient(90deg, #0B1729 0%, #095347 100%);
+  }
+}
+.red {
+  background: linear-gradient(90deg, #493013 0%, #7B0C3B 100%);
+
+  &:hover, &:focus {
+    background: linear-gradient(90deg, #412B11 0%, #6E0C36 100%);
+  }
+  &:active {
+    background: linear-gradient(90deg, #1C0F00 0%, #5F0D2F 100%);
+  }
+}
+.purple {
+  background: linear-gradient(90deg, #281349 0%, #720C7B 100%);
+
+  &:hover, &:focus {
+    background: linear-gradient(90deg, #241241 0%, #670D71 100%);
+  }
+  &:active {
+    background: linear-gradient(90deg, #1E0F34 0%, #520A5A 100%);
+  }
+}
+
+.isHide {
+  visibility: hidden;
+}

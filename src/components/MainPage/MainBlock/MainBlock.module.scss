@@ -1,0 +1,101 @@
+.mainBlock {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 128px;
+  padding-right: 64px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--main-accent);
+  margin: 0;
+}
+.cityBlock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 7.5px;
+}
+.cityText {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray-dark);
+}
+.placemarkIcon {
+  color: var(--gray-dark);
+}
+
+.heroBlock {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+.title {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 66px;
+  color: var(--system-black);
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+.accentTitle {
+  color: var(--main-accent);
+}
+.subtitle {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 30px;
+  color: var(--gray-dark);
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.bookButton {
+  max-width: 250px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyright {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--gray-dark);
+  margin: 0;
+}
+.phone {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--system-black);
+  text-decoration: none;
+  margin: 0;
+
+  &:hover, &:active {
+    color: var(--main-accent);
+  }
+  &:focus {
+    outline: none;
+  }
+}

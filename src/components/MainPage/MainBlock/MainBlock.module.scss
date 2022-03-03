@@ -91,6 +91,7 @@
   color: var(--system-black);
   text-decoration: none;
   margin: 0;
+  transition: .2s linear;
 
   &:hover, &:active {
     color: var(--main-accent);

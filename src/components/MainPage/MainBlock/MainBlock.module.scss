@@ -18,6 +18,7 @@
 }
 .logo {
   font-size: 30px;
+  line-height: 24px;
   font-weight: 700;
   color: var(--main-accent);
   margin: 0;
@@ -79,12 +80,14 @@
 }
 .copyright {
   font-size: 13px;
+  line-height: 16px;
   font-weight: 400;
   color: var(--gray-dark);
   margin: 0;
 }
 .phone {
   font-size: 13px;
+  line-height: 16px;
   font-weight: 400;
   color: var(--system-black);
   text-decoration: none;

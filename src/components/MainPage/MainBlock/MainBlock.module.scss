@@ -101,3 +101,57 @@
     outline: none;
   }
 }
+
+@media (max-width: 1024px) {
+  .mainBlock {
+    padding: 32px;
+  }
+}
+@media (max-width: 530px) {
+  .mainBlock {
+    padding: 0;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    padding: 16px;
+  }
+
+  .heroBlock {
+    & .bookButton {
+      max-width: 100%;
+      border-radius: 0;
+    }
+  }
+  .title {
+    font-size: 32px;
+    line-height: 38px;
+    padding: 0 16px;
+    margin-bottom: 16px;
+  }
+  .accentTitle {
+    display: block;
+  }
+  .subtitle {
+    font-size: 18px;
+    padding: 0 16px;
+    margin-bottom: 32px;
+  }
+
+  .footer {
+    min-height: 72px;
+    background-color: var(--background-dark);
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    gap: 8px;
+    padding: 16px;
+  }
+  .phone {
+    color: var(--main-accent);
+  }
+  .copyright {
+    color: var(--gray-light);
+  }
+}

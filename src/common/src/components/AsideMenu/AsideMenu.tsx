@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './AsideMenu.module.scss';
 import { MenuOutlined, PlusOutlined } from '@ant-design/icons';
+import { useWindowSize } from '../../utils/useWindowSize';
 import cn from 'classnames';
 import TelegramIcon from '../../assets/icons/Telegram/Telegram';
 import FacebookIcon from '../../assets/icons/Facebook/Facebook';
@@ -9,6 +10,8 @@ import { Lang } from '../../model/model';
 
 
 export default function AsideMenu() {
+  const { width } = useWindowSize();
+  const isMobile = width < 531;
   const [ isOpened, setIsOpened ] = useState<boolean>(false);
   const [ lang, setLang ] = useState<Lang>(Lang.Ru);
   const LANG_MAP = {

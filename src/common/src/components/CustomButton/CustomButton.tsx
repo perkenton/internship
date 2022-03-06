@@ -31,7 +31,7 @@ export default function CustomButton(props: {
       id={ props.id }
       className={ buttonClass }
       onClick={ props.onClick }
-      disabled={ props.disabled }
+      disabled={ props.disabled || props.loading }
     >
       { props.loading && !props.disabled && <LoadingOutlined className={ styles.loader } /> }
       <span className={ cn(hiddenClass) }>{ props.label }</span>

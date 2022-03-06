@@ -44,7 +44,7 @@ export default function AsideMenu() {
         <div onClick={ toggleCollapsed } className={ styles.burgerButton } >
           { isOpened ? <PlusOutlined className={ styles.crossIcon }/> : <MenuOutlined className={ styles.burgerIcon }/> }
         </div>
-        { !isOpened && <p className={ styles.lang } onClick={ changeLang }>{ LANG_MAP[lang] }</p> }
+        { !isOpened && !isMobile && <p className={ styles.lang } onClick={ changeLang }>{ LANG_MAP[lang] }</p> }
       </div>
 
       <div className={ menuBlockClass }>
@@ -60,6 +60,8 @@ export default function AsideMenu() {
           <a href='https://www.instagram.com' className={ styles.iconLink } target='_blank' rel='noreferrer'><InstagramIcon /></a>
         </div>
       </div>
+
+      { isOpened && isMobile && <p className={ styles.lang } onClick={ changeLang }>{ LANG_MAP[lang] }</p> }
     </aside>
   )
 }

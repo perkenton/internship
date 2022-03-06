@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/internship/static/css/main.073c9b0a.css",
-    "main.js": "/internship/static/js/main.d7d8027c.js",
+    "main.css": "/internship/static/css/main.af766f49.css",
+    "main.js": "/internship/static/js/main.8fb4659e.js",
     "static/js/787.071ac33f.chunk.js": "/internship/static/js/787.071ac33f.chunk.js",
-    "static/media/logo.svg": "/internship/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Roboto-Medium.eot": "/internship/static/media/Roboto-Medium.f9f0c87146a33023da7e.eot",
+    "static/media/Roboto-Medium.ttf": "/internship/static/media/Roboto-Medium.ef677e217f2009c16854.ttf",
+    "static/media/Roboto-Regular.eot": "/internship/static/media/Roboto-Regular.30b57652c88c5dbd65de.eot",
+    "static/media/Roboto-Regular.ttf": "/internship/static/media/Roboto-Regular.25e40da956314b12d333.ttf",
+    "static/media/Roboto-Bold.eot": "/internship/static/media/Roboto-Bold.6490694b37b0ee09bd91.eot",
+    "static/media/Roboto-Bold.ttf": "/internship/static/media/Roboto-Bold.5e9f6556d3c0bf6230f0.ttf",
+    "static/media/Roboto-Light.eot": "/internship/static/media/Roboto-Light.d592a653abb7a57fedd8.eot",
+    "static/media/Roboto-Light.ttf": "/internship/static/media/Roboto-Light.13d61ef8e609b548d9b5.ttf",
+    "static/media/Roboto-Medium.woff": "/internship/static/media/Roboto-Medium.b14ca2d2b289afceb0b0.woff",
+    "static/media/Roboto-Bold.woff": "/internship/static/media/Roboto-Bold.3f2cbde6b72e8d05669f.woff",
+    "static/media/Roboto-Regular.woff": "/internship/static/media/Roboto-Regular.31012f9b3e3da44f87e8.woff",
+    "static/media/Roboto-Light.woff": "/internship/static/media/Roboto-Light.df0f59d80526acc6d0cd.woff",
+    "static/media/Roboto-Medium.woff2": "/internship/static/media/Roboto-Medium.fc0337b9cf1cce2e6e1e.woff2",
+    "static/media/Roboto-Bold.woff2": "/internship/static/media/Roboto-Bold.6cd35edfbc0d7a417131.woff2",
+    "static/media/Roboto-Regular.woff2": "/internship/static/media/Roboto-Regular.a25806274237d06e00a6.woff2",
+    "static/media/Roboto-Light.woff2": "/internship/static/media/Roboto-Light.d537674e9e217fa53a13.woff2",
+    "static/media/jp-valery-1052513-unsplash.jpg": "/internship/static/media/jp-valery-1052513-unsplash.dd2decc071a0b1669add.jpg",
     "index.html": "/internship/index.html",
-    "main.073c9b0a.css.map": "/internship/static/css/main.073c9b0a.css.map",
-    "main.d7d8027c.js.map": "/internship/static/js/main.d7d8027c.js.map",
+    "main.af766f49.css.map": "/internship/static/css/main.af766f49.css.map",
+    "main.8fb4659e.js.map": "/internship/static/js/main.8fb4659e.js.map",
     "787.071ac33f.chunk.js.map": "/internship/static/js/787.071ac33f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d7d8027c.js"
+    "static/css/main.af766f49.css",
+    "static/js/main.8fb4659e.js"
   ]
 }

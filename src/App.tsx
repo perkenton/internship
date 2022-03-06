@@ -1,12 +1,10 @@
 import React from 'react';
-import styles from './App.module.scss';
-import { Button } from 'antd';
+import MainPage from './components/MainPage/MainPage';
+
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <MainPage />
   );
 }
 

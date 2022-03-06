@@ -6,10 +6,6 @@
   justify-content: center;
   align-items: center;
 
-  font-size: 18px;
-  font-weight: 500;
-  color: var(--system-white);
-
   border: none;
   border-radius: 8px;
   transition: .3s linear;
@@ -20,6 +16,12 @@
   &:focus {
     outline: none;
   }
+}
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--system-white);
+  z-index: 2;
 }
 
 .loader {

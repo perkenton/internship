@@ -47,7 +47,7 @@ export default function AsideMenu() {
       <div className={ menuBlockClass }>
         <ul className={ styles.menuList }>
           <li className={ styles.menuItem }><a href='#' className={ styles.menuItemLink}>Парковка</a></li>
-          <li className={ styles.menuItem }><a href='#' className={ styles.menuItemLink}>Cтраховка</a></li>
+          <li className={ styles.menuItem }><a href='#' className={ styles.menuItemLink}>Страховка</a></li>
           <li className={ styles.menuItem }><a href='#' className={ styles.menuItemLink}>Бензин</a></li>
           <li className={ styles.menuItem }><a href='#' className={ styles.menuItemLink}>Обслуживание</a></li>
         </ul>

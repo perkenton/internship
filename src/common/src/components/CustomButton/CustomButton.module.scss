@@ -69,6 +69,25 @@
   }
 }
 
+.disabledButton {
+  background: var(--gray-light);
+
+  &:hover {
+    cursor: not-allowed;
+  }
+  &::before, &::after {
+    content: none;
+  }
+}
+.loadingButton {
+  &:hover {
+    cursor: not-allowed;
+  }
+  &::before, &::after {
+    content: none;
+  }
+}
+
 .isHide {
   visibility: hidden;
 }

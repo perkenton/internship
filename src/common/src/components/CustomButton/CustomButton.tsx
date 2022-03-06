@@ -18,6 +18,8 @@ export default function CustomButton(props: {
 }) {
   const buttonClass = cn(
     styles.button,
+    props.disabled && styles.disabledButton,
+    props.loading && styles.loadingButton,
     styles[props.color],
     props.class,
   );

@@ -5,8 +5,7 @@ import cn from 'classnames';
 
 type ButtonColor = 'green' | 'blue' | 'red' | 'purple';
 
-
-export default function CustomButton(props: {
+type ButtonProps = {
   label: string,
   name?: string,
   id?: string,
@@ -14,27 +13,38 @@ export default function CustomButton(props: {
   onClick?: (value?: any) => void,
   loading?: boolean,
   disabled?: boolean,
-  class?: string,
-}) {
+  classes?: string,
+}
+
+export default function CustomButton({
+  label,
+  name,
+  id,
+  color,
+  onClick,
+  loading,
+  disabled,
+  classes,
+}: ButtonProps) {
   const buttonClass = cn(
     styles.button,
-    props.disabled && styles.disabledButton,
-    props.loading && styles.loadingButton,
-    styles[props.color],
-    props.class,
+    disabled && styles.disabledButton,
+    loading && styles.loadingButton,
+    styles[color],
+    classes,
   );
-  const hiddenClass = props.loading && styles.isHide;
+  const hiddenClass = loading && styles.isHide;
 
   return (
     <button
-      name={ props.name }
-      id={ props.id }
+      name={ name }
+      id={ id }
       className={ buttonClass }
-      onClick={ props.onClick }
-      disabled={ props.disabled || props.loading }
+      onClick={ onClick }
+      disabled={ disabled || loading }
     >
-      { props.loading && <LoadingOutlined className={ styles.loader } /> }
-      <span className={ cn(styles.label, hiddenClass) }>{ props.label }</span>
+      { loading && <LoadingOutlined className={ styles.loader } /> }
+      <span className={ cn(styles.label, hiddenClass) }>{ label }</span>
     </button>
   )
 }

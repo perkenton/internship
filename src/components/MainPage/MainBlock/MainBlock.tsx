@@ -18,7 +18,7 @@ export default function MainBlock() {
       <div className={ styles.heroBlock }>
         <h1 className={ styles.title }><span>Каршеринг</span> <span className={ styles.accentTitle }>Need for drive</span></h1>
         <p className={ styles.subtitle }>Поминутная аренда авто твоего города</p>
-        <CustomButton label='Забронировать' color='green' class={ styles.bookButton } />
+        <CustomButton label='Забронировать' color='green' classes={ styles.bookButton } />
       </div>
 
       <div className={ styles.footer }>

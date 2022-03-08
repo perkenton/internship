@@ -18,7 +18,7 @@ export default function CarouselBlock() {
       <div className={ styles.slide } >
         <h2 className={ styles.title }>Бесплатная парковка</h2>
         <p className={ styles.subtitle }>Оставляйте машину на платных городских парковках и разрешенных местах, не нарушая ПДД, а также в аэропортах.</p>
-        <CustomButton label='Подробнее' color='green' class={ styles.button } />
+        <CustomButton label='Подробнее' color='green' classes={ styles.button } />
       </div>
 
       <div className={ styles.navDots }>

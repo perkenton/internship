@@ -1,0 +1,17 @@
+.mainPage {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 64px 1fr 1fr;
+}
+
+@media (max-width: 900px) {
+  .mainPage {
+    grid-template-columns: 86px 1fr;
+  }
+}
+@media (max-width: 530px) {
+  .mainPage {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/internship/static/css/main.af766f49.css",
-    "main.js": "/internship/static/js/main.8fb4659e.js",
-    "static/js/787.071ac33f.chunk.js": "/internship/static/js/787.071ac33f.chunk.js",
+    "main.css": "/internship/static/css/main.fc6f7774.css",
+    "main.js": "/internship/static/js/main.10063354.js",
     "static/media/Roboto-Medium.eot": "/internship/static/media/Roboto-Medium.f9f0c87146a33023da7e.eot",
     "static/media/Roboto-Medium.ttf": "/internship/static/media/Roboto-Medium.ef677e217f2009c16854.ttf",
     "static/media/Roboto-Regular.eot": "/internship/static/media/Roboto-Regular.30b57652c88c5dbd65de.eot",
@@ -15,18 +14,20 @@
     "static/media/Roboto-Bold.woff": "/internship/static/media/Roboto-Bold.3f2cbde6b72e8d05669f.woff",
     "static/media/Roboto-Regular.woff": "/internship/static/media/Roboto-Regular.31012f9b3e3da44f87e8.woff",
     "static/media/Roboto-Light.woff": "/internship/static/media/Roboto-Light.df0f59d80526acc6d0cd.woff",
+    "static/media/jp-valery-1052513-unsplash-4.jpg": "/internship/static/media/jp-valery-1052513-unsplash-4.39fed2d3c395d2d77697.jpg",
+    "static/media/jp-valery-1052513-unsplash-3.jpg": "/internship/static/media/jp-valery-1052513-unsplash-3.2d283c17751e4d795453.jpg",
+    "static/media/jp-valery-1052513-unsplash-2.jpg": "/internship/static/media/jp-valery-1052513-unsplash-2.a8d5da6eb116512f79a7.jpg",
     "static/media/Roboto-Medium.woff2": "/internship/static/media/Roboto-Medium.fc0337b9cf1cce2e6e1e.woff2",
     "static/media/Roboto-Bold.woff2": "/internship/static/media/Roboto-Bold.6cd35edfbc0d7a417131.woff2",
     "static/media/Roboto-Regular.woff2": "/internship/static/media/Roboto-Regular.a25806274237d06e00a6.woff2",
     "static/media/Roboto-Light.woff2": "/internship/static/media/Roboto-Light.d537674e9e217fa53a13.woff2",
-    "static/media/jp-valery-1052513-unsplash.jpg": "/internship/static/media/jp-valery-1052513-unsplash.dd2decc071a0b1669add.jpg",
+    "static/media/jp-valery-1052513-unsplash-1.jpg": "/internship/static/media/jp-valery-1052513-unsplash-1.dd2decc071a0b1669add.jpg",
     "index.html": "/internship/index.html",
-    "main.af766f49.css.map": "/internship/static/css/main.af766f49.css.map",
-    "main.8fb4659e.js.map": "/internship/static/js/main.8fb4659e.js.map",
-    "787.071ac33f.chunk.js.map": "/internship/static/js/787.071ac33f.chunk.js.map"
+    "main.fc6f7774.css.map": "/internship/static/css/main.fc6f7774.css.map",
+    "main.10063354.js.map": "/internship/static/js/main.10063354.js.map"
   },
   "entrypoints": [
-    "static/css/main.af766f49.css",
-    "static/js/main.8fb4659e.js"
+    "static/css/main.fc6f7774.css",
+    "static/js/main.10063354.js"
   ]
 }

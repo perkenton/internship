@@ -2,8 +2,7 @@ import React from 'react';
 import { IconProps } from '../../../model/model';
 
 
-export default function Placemark(props: IconProps) {
-  const { width, height, color } = props;
+export default function Placemark({ width, height, color }: IconProps) {
 
   return (
     <svg width={ width || "18"} height={ height || '20' } fill='none' xmlns='http://www.w3.org/2000/svg'>

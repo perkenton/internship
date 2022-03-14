@@ -2,35 +2,59 @@ import React from 'react';
 import styles from './CarouselBlock.module.scss';
 import cn from 'classnames';
 import { Carousel } from 'antd';
+import { CarouselRef } from 'antd/es/carousel';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import CustomButton from '../../../common/src/components/CustomButton/CustomButton';
+import { CAROUSEL_DATA, CarouselData } from './constants';
 
 
 export default function CarouselBlock() {
+  const carousel: React.RefObject<CarouselRef> = React.createRef();
+  const AUTOPLAY_SPEED: number = 5000;
+
+  function next() {
+    if(carousel.current) carousel.current.next();
+  }
+
+  function prev() {
+    if(carousel.current) carousel.current.prev();
+  }
 
 
   return (
-    <section className={ styles.carousel }>
-      <div className={cn(styles.navBlocks, styles.prevBlock) } onClick={ () => console.log('prev()') }>
+    <div className={ styles.container }>
+      <div className={ cn(styles.navBlocks, styles.prevNavBlock) } onClick={ prev }>
         <LeftOutlined className={ styles.arrowIcon } />
       </div>
-
-      <div className={ styles.slide } >
-        <h2 className={ styles.title }>Бесплатная парковка</h2>
-        <p className={ styles.subtitle }>Оставляйте машину на платных городских парковках и разрешенных местах, не нарушая ПДД, а также в аэропортах.</p>
-        <CustomButton label='Подробнее' color='green' classes={ styles.button } />
-      </div>
-
-      <div className={ styles.navDots }>
-        <span className={ styles.navDot } />
-        <span className={ styles.navDot } />
-        <span className={ styles.navDot } />
-        <span className={ styles.navDot } />
-      </div>
-
-      <div className={cn(styles.navBlocks, styles.nextBlock) } onClick={ () => console.log('next()') }>
+      <div className={ cn(styles.navBlocks, styles.nextNavBlock) } onClick={ next }>
         <RightOutlined className={ styles.arrowIcon } />
       </div>
-    </section>
+
+      <Carousel
+        ref={ carousel }
+        autoplaySpeed={ AUTOPLAY_SPEED }
+        autoplay
+      >
+        {
+          CAROUSEL_DATA.map((item: CarouselData) => {
+            return (
+              <section key={ item.id } className={ styles.slideSection }>
+                <div
+                  className={ styles.slide }
+                  style={{
+                    background: `linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%), url(${item.image}) no-repeat center`,
+                    backgroundSize: 'cover'
+                  }}
+                >
+                  <h2 className={ styles.title }>{ item.title }</h2>
+                  <p className={ styles.subtitle }>{ item.subtitle }</p>
+                  <CustomButton label='Подробнее' color={ item.buttonColor } classes={ styles.button } />
+                </div>
+              </section>
+            )
+          })
+        }
+      </Carousel>
+    </div>
   )
 }

@@ -3,7 +3,7 @@ import styles from './CustomButton.module.scss';
 import { LoadingOutlined } from '@ant-design/icons';
 import cn from 'classnames';
 
-type ButtonColor = 'green' | 'blue' | 'red' | 'purple';
+export type ButtonColor = 'green' | 'blue' | 'red' | 'purple';
 
 type ButtonProps = {
   label: string,

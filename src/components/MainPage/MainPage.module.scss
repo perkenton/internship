@@ -2,9 +2,14 @@
   max-width: 2000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 64px 1fr 1fr;
+  grid-template-columns: 64px calc(50% - 32px) calc(50% - 32px);
 }
 
+@media (max-width: 1024px) {
+  .mainPage {
+    grid-template-columns: 64px calc(57% - 32px) calc(43% - 32px);
+  }
+}
 @media (max-width: 900px) {
   .mainPage {
     grid-template-columns: 86px 1fr;

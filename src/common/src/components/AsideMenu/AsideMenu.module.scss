@@ -2,8 +2,7 @@
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-columns: 32px auto;
-  padding: 32px 16px;
+  grid-template-columns: 64px 1fr;
   background-color: var(--background-dark);
 
   z-index: 3;
@@ -29,9 +28,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 .asideBlockOpened {
-  width: 752px;
+  width: calc(50vw + 32px);
 
   &::before {
     visibility: visible;
@@ -43,15 +46,19 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 112px;
   visibility: hidden;
   opacity: 0;
   transition: opacity .1s linear;
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 112px;
 }
 .menuBlockOpened {
   visibility: visible;
   opacity: 1;
   transition: opacity .3s ease-in;
+  width: 100%;
 }
 .menuList {
   list-style: none;
@@ -159,9 +166,19 @@
 }
 
 
+@media (min-width: 2000px) {
+  .asideBlockOpened {
+    width: 1032px;
+  }
+}
+@media (max-width: 1024px) {
+  .asideBlockOpened {
+    width: calc(57vw + 32px);
+  }
+}
 @media (max-width: 900px) {
   .asideBlock {
-    grid-template-columns: 54px auto;
+    grid-template-columns: 86px auto;
   }
   .asideBlockOpened {
     width: 100vw;

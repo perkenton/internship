@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import styles from './OrderForm.module.scss';
-import Header from '../../../common/src/components/Header/Header';
+import Header from '../../../common/src/components/Header';
 import { Steps, Form } from 'antd';
 import { STEPS } from './constants';
 import { NBS } from '../../../common/src/constants';
-import CustomButton from '../../../common/src/components/CustomButton/CustomButton';
+import CustomButton from '../../../common/src/components/CustomButton';
 
 
 export default function OrderForm() {

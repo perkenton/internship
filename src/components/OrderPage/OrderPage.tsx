@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './OrderPage.module.scss';
-import AsideMenu from '../../common/src/components/AsideMenu/AsideMenu';
+import AsideMenu from '../../common/src/components/AsideMenu';
 import OrderForm from './OrderForm/OrderForm';
 
 

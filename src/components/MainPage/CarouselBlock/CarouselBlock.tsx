@@ -4,7 +4,7 @@ import cn from 'classnames';
 import { Carousel } from 'antd';
 import { CarouselRef } from 'antd/es/carousel';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
-import CustomButton from '../../../common/src/components/CustomButton/CustomButton';
+import CustomButton from '../../../common/src/components/CustomButton';
 import { CAROUSEL_DATA, CarouselData } from './constants';
 
 

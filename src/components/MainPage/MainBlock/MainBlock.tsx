@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './MainBlock.module.scss';
-import Header from '../../../common/src/components/Header/Header';
-import CustomButton from '../../../common/src/components/CustomButton/CustomButton';
+import Header from '../../../common/src/components/Header';
+import CustomButton from '../../../common/src/components/CustomButton';
 
 
 export default function MainBlock() {

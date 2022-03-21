@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Header.module.scss';
 import cn from 'classnames';
-import Placemark from '../../assets/icons/Placemark/Placemark';
+import Placemark from '../../assets/icons/Placemark';
 
 type HeaderType = {
   classes?: string,

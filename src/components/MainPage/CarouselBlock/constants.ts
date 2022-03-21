@@ -1,5 +1,5 @@
 import { NBS } from '../../../common/src/constants';
-import { ButtonColor } from '../../../common/src/components/CustomButton/CustomButton';
+import { ButtonColor } from '../../../common/src/components/CustomButton';
 import photoOne from './assets/jp-valery-1052513-unsplash-1.jpg';
 import photoTwo from './assets/jp-valery-1052513-unsplash-2.jpg';
 import photoThree from './assets/jp-valery-1052513-unsplash-3.jpg';

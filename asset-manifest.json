@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/internship/static/css/main.fc6f7774.css",
-    "main.js": "/internship/static/js/main.10063354.js",
+    "main.css": "/internship/static/css/main.ccea3683.css",
+    "main.js": "/internship/static/js/main.bef74f30.js",
     "static/media/Roboto-Medium.eot": "/internship/static/media/Roboto-Medium.f9f0c87146a33023da7e.eot",
     "static/media/Roboto-Medium.ttf": "/internship/static/media/Roboto-Medium.ef677e217f2009c16854.ttf",
     "static/media/Roboto-Regular.eot": "/internship/static/media/Roboto-Regular.30b57652c88c5dbd65de.eot",
@@ -22,12 +22,14 @@
     "static/media/Roboto-Regular.woff2": "/internship/static/media/Roboto-Regular.a25806274237d06e00a6.woff2",
     "static/media/Roboto-Light.woff2": "/internship/static/media/Roboto-Light.d537674e9e217fa53a13.woff2",
     "static/media/jp-valery-1052513-unsplash-1.jpg": "/internship/static/media/jp-valery-1052513-unsplash-1.dd2decc071a0b1669add.jpg",
+    "static/media/ulyanovskMap.jpg": "/internship/static/media/ulyanovskMap.94c05ba891a06dee1b78.jpg",
     "index.html": "/internship/index.html",
-    "main.fc6f7774.css.map": "/internship/static/css/main.fc6f7774.css.map",
-    "main.10063354.js.map": "/internship/static/js/main.10063354.js.map"
+    "static/media/CaretRightIcon.svg": "/internship/static/media/CaretRightIcon.bdf97abcf00a9b716775.svg",
+    "main.ccea3683.css.map": "/internship/static/css/main.ccea3683.css.map",
+    "main.bef74f30.js.map": "/internship/static/js/main.bef74f30.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc6f7774.css",
-    "static/js/main.10063354.js"
+    "static/css/main.ccea3683.css",
+    "static/js/main.bef74f30.js"
   ]
 }

@@ -4,10 +4,9 @@ import { Form, Select } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
 import ulyanovskMap from '../assets/ulyanovskMap.jpg';
 
-const { Option } = Select;
-
 
 export default function Location() {
+  const { Option } = Select;
 
   return (
     <div className={ styles.location }>
@@ -23,7 +22,6 @@ export default function Location() {
             showArrow={ false }
             allowClear
             clearIcon={ <PlusOutlined className={ styles.clearIcon } /> }
-            className={ styles.select }
             placeholder='Начните вводить город ...'
             optionFilterProp='children'
             filterOption={(input: string, option: any) =>
@@ -55,7 +53,6 @@ export default function Location() {
             showArrow={ false }
             allowClear
             clearIcon={ <PlusOutlined className={ styles.clearIcon } /> }
-            className={ styles.select }
             placeholder='Начните вводить пункт ...'
             optionFilterProp='children'
             filterOption={(input: string, option: any) =>

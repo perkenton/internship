@@ -6,10 +6,9 @@ import { STEPS } from './constants';
 import { NBS } from '../../../common/src/constants';
 import CustomButton from '../../../common/src/components/CustomButton/CustomButton';
 
-const { Step } = Steps;
-
 
 export default function OrderForm() {
+  const { Step } = Steps;
   const [current, setCurrent] = useState<number>(0);
 
   const next = () => {

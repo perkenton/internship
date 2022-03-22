@@ -73,7 +73,9 @@ export default function Location() {
 
       <div className={ styles.mapBlock }>
         <p className={ styles.label }>Выбрать на карте:</p>
-        <img src={ ulyanovskMap } alt='Карта Ульяновска' className={ styles.map }/>
+        <div className={ styles.mapWrapper }>
+          <img src={ ulyanovskMap } alt='Карта Ульяновска' className={ styles.map }/>
+        </div>
       </div>
 
     </div>

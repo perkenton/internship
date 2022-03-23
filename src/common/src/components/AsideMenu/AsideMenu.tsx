@@ -3,9 +3,9 @@ import styles from './AsideMenu.module.scss';
 import { MenuOutlined, PlusOutlined } from '@ant-design/icons';
 import { useWindowSize } from '../../utils/useWindowSize';
 import cn from 'classnames';
-import TelegramIcon from '../../assets/icons/Telegram/Telegram';
-import FacebookIcon from '../../assets/icons/Facebook/Facebook';
-import InstagramIcon from '../../assets/icons/Instagram/Instagram';
+import TelegramIcon from '../../assets/icons/Telegram';
+import FacebookIcon from '../../assets/icons/Facebook';
+import InstagramIcon from '../../assets/icons/Instagram';
 import { Lang } from '../../model/model';
 
 
